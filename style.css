@@ -1,47 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 body {
-    width: 1440px;
-    align-items: center;
-    margin: auto;
+  width: 1440px;
+  align-items: center;
+  margin: auto;
 }
 
 main {
-  
-    background-image: url('./images/large_image_desktop.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 81vh;
-    margin-right: 0;
-    
+  background-image: url('./images/large_image_desktop.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 81vh;
+  margin-right: 0;
 }
- .mainpage_heading {
-    font-family: 'Playfair-Display', 'sans-serif';
-    font-size: 110px;
-    line-height: 100%;
-    margin-top: 15%;
-    margin-left: 8%;
- }
 
-  .mainpage_para {
-    font-family: 'Poppins', 'sans-serif';
-    font-size: 14px;
-    line-height: 21px;
-    margin-left: 8%;
-    height: 84px;
-    width: 484px;
-    border-radius: nullpx;
+.mainpage_heading {
+  font-family: 'Playfair-Display', sans-serif;
+  font-size: 110px;
+  line-height: 100%;
+  margin-top: 15%;
+  margin-left: 8%;
+}
 
- }
+.mainpage_para {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 8%;
+  height: 84px;
+  width: 484px;
+}
+
 .btn-dark {
-    width: 254px;
-    height: 70px;
-    margin-left: 115px;
-
+  width: 254px;
+  height: 70px;
+  margin-left: 115px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
