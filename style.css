@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+main {
+    margin-left: 10%;
+}
+
+.mainpage_heading {
+    font-family: 'Playfair-Display', 'sans-serif';
+    font-size: 110px;
+    line-height: 100%;
+    margin-top: -15%;
+    margin-left: -12%;
+}
+
+.mainpage_para {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+}
+
+.col-2 {
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.background-image {
+    background-image: url('./images/large_image_desktop.png'); 
+    background-position: fixed;
+    height: 200vh; 
+    margin-left: 7.3%;
+    margin-top: -14.7%;
+    z-index: 1;
+    background-repeat: no-repeat; 
+    background-position: center right;
+}
